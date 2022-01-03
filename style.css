@@ -9,7 +9,7 @@ h1{
 span{
     color: salmon;
 }
-section{
+.flexebol-containt{
     display: flex;
     margin-bottom: 150px;
 }
@@ -36,4 +36,34 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position:right ;
+}.color{
+    color: #ffb824;
+}
+.boxsudo{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px gray;
+}
+h2{
+    font-size: 40px;
+}
+.experiences-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#one{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, rgb(255, 50, 84) );
+    border-image-slice: 1;
+}
+#two{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, rgb(0, 255, 55) );
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
