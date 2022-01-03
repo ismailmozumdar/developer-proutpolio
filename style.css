@@ -11,6 +11,7 @@ span{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .haf-width{
     width: 50%;
@@ -30,4 +31,9 @@ section{
 .banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.Dream-Big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right ;
 }
